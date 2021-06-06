@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-06T15:57:49.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7710800000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "firstbdd.hooks.inittialise()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "register",
+        "description": "",
+        "id": "create-a-test-for-register-to-https://demoqa.com/automation-practice-form;register",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "firstbdd.hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28002000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on automation-practice-form web app",
+            "match": {
+              "location": "firstbdd.stepdefs.i_am_on_automation_practice_form_web_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2159530500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter firstname",
+            "match": {
+              "location": "firstbdd.stepdefs.i_enter_firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2076513800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter lastname",
+            "match": {
+              "location": "firstbdd.stepdefs.i_enter_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2104012100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter emailId",
+            "match": {
+              "location": "firstbdd.stepdefs.i_enter_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2070420700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select gender",
+            "match": {
+              "location": "firstbdd.stepdefs.i_select_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2074261000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter mobileno",
+            "match": {
+              "location": "firstbdd.stepdefs.i_enter_mobileno()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3470850100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter dob",
+            "match": {
+              "location": "firstbdd.stepdefs.i_enter_dob()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4176850800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter Subjects",
+            "match": {
+              "location": "firstbdd.stepdefs.i_enter_subjects()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2069020000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I choose hobbies",
+            "match": {
+              "location": "firstbdd.stepdefs.i_choose_hobbies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2068963700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I upload a file",
+            "match": {
+              "location": "firstbdd.stepdefs.i_upload_a_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3152374000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter address",
+            "match": {
+              "location": "firstbdd.stepdefs.i_enter_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5113791400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select state",
+            "match": {
+              "location": "firstbdd.stepdefs.i_select_state()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5084996700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select city",
+            "match": {
+              "location": "firstbdd.stepdefs.i_select_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2045730600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I submit",
+            "match": {
+              "location": "firstbdd.stepdefs.i_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072061100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Form should be submitted",
+            "match": {
+              "location": "firstbdd.stepdefs.form_should_be_submitted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a test for register to https://demoqa.com/automation-practice-form",
+    "description": "",
+    "id": "create-a-test-for-register-to-https://demoqa.com/automation-practice-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/register.feature",
+    "tags": []
+  }
+]
